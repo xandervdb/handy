@@ -7,10 +7,149 @@ body {
 }
 .all {
 	text-align : left;
+	height: 750px;
 	width : 700px;
 	margin : 100px auto;
 	min-height : 600px;
 	background-image : url(bg.jpg);
 	border : 4px solid red;
+}
+article{
+	background-color: rgba(255, 255, 255, 0.466);
+	position: relative;
+	top: 56px;
+}
+nav{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background: url(bar1.png);
+	height: 25px;
+	color: grey;
+}
+nav:hover{
+	background-image: url(bar2.png);
+	color: black;
+}
+nav:hover a{
+	color: black;
+}
+a{
+	text-decoration: none;
+	color: grey;
+}
+a.top-menu{
+	padding-left: 35px;
+}
+p{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+h1{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+#title {
+	 position: relative;
+	 bottom: 170px;
+	 left: 30px;
+}
+#hammer {
+	position: relative;
+	bottom: 75px;
+}
+#hammer:hover{
+	position: relative;
+	bottom: 65px;
+	right: 10px;
+}
+#saw{
+	position: relative; 
+	right: 350px;
+	top: 30px;
+}
+#saw:hover{
+	position: relative;
+	right: 340px;
+	top: 40px;
+}
+#pincers{
+	position: relative;
+	left: 550px;
+}
+#pincers:hover{
+	position: relative;
+	left: 540px;
+	bottom: 10px;
+}
+#screwdriver{
+	position: relative;
+	left: 375px;
+	bottom: 150px;
+}
+#screwdriver:hover{
+	position: relative;
+	left: 365px;
+	bottom: 140px;
+}
+#toolbox{
+	position: relative;
+	right: 165px;
+	bottom: 35px;
+}
+#humanfactor {
+    cursor: pointer;
+    position: relative;
+    color: blue;
+}
+#text2{
+	display: none;
+	position: absolute;
+    background-color: white;
+    width: 95px;
+    color: black;
+	left: 390px;
+	top: -80px;	
+}
+
+#toolbox:hover #text2{
+	display: block;
+}
+
+#text2 li:hover{
+	background-color: yellow;
+}
+
+#toolbox ul{
+	list-style-type: none;
+}
+
+#toolbox li a{
+	text-decoration: none;
+	color: grey;
+}
+
+#toolbox li{
+	border: 0.5px solid rgb(0, 0, 0);
+	padding: 10px 0px 2px 6px;
+	margin: 0px 0px 0px 0px;
+	border-right: 0px
+}
+
+#text {
+    display: none;
+    left: 0px;
+    position: absolute;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 200px;
+    color: black;
+    padding: 5px;
+}
+
+#humanfactor:hover #text {
+    display: block;
 }
 
