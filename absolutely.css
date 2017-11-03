@@ -55,12 +55,19 @@ h1{
 	 bottom: 170px;
 	 left: 30px;
 }
+#title:hover {
+	position: relative;
+	transition: linear 0.15s;
+	bottom: 160px;
+	left: 50px;
+}
 #hammer {
 	position: relative;
 	bottom: 75px;
 }
 #hammer:hover{
 	position: relative;
+	transition: linear 0.15s;
 	bottom: 65px;
 	right: 10px;
 }
@@ -71,6 +78,7 @@ h1{
 }
 #saw:hover{
 	position: relative;
+	transition: linear 0.15s;
 	right: 340px;
 	top: 40px;
 }
@@ -80,6 +88,7 @@ h1{
 }
 #pincers:hover{
 	position: relative;
+	transition: linear 0.15s;
 	left: 540px;
 	bottom: 10px;
 }
@@ -90,6 +99,7 @@ h1{
 }
 #screwdriver:hover{
 	position: relative;
+	transition: linear 0.15s;
 	left: 365px;
 	bottom: 140px;
 }
