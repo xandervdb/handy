@@ -1,6 +1,7 @@
 body {
 	text-align : center;
 	font-family : Tahoma;
+	margin: 0px;
 	font-size : 14px;
 	background-color : black;
 	/* toe te voegen */
@@ -20,16 +21,16 @@ article{
 	top: 56px;
 }
 nav{
-	position: fixed;
-	width: 100%;
-	top: 0;
 	background: url(bar1.png);
-	height: 25px;
 	color: grey;
+	margin: 0px;
+	padding: 0px;
 }
 nav:hover{
 	background-image: url(bar2.png);
 	color: black;
+	margin: 0px;
+	padding: 0px;
 }
 nav:hover a{
 	color: black;
